@@ -1,0 +1,31 @@
+This is a template for a chatroom app. You need FastAPI to run this, 
+which can be installed by typing in the console:
+
+pip install "fastapi[standard]"
+
+---------------------------------------------------------------------
+
+You can run the server by typing:
+
+fastapi dev backend.py
+
+---------------------------------------------------------------------
+
+When the server is running, it will tell you what address it is being
+hosted on, which is likely to be http://127.0.0.1:8000
+
+To access the website, type the address followed by the endpoint of
+the chatroom into a browser:
+
+http://127.0.0.1:8000/chatroom
+
+---------------------------------------------------------------------
+
+The frontend website and all its code are already done for you.
+The backend server has template functions, and you need to provide
+functionality where the TODO comments are.
+
+Hint: You can store the message IDs alongside their text values in
+a dictionary, and you can store the most recent message IDs in a list.
+
+Good luck!
